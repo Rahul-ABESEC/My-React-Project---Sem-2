@@ -197,7 +197,6 @@ function App() {
                 <span>Total</span>
                 <strong>${cartTotal.toFixed(2)}</strong>
               </div>
-
               <button className="checkout">Checkout</button>
               <button className="secondary-button" onClick={clearCart}>
                 Clear Cart
