@@ -68,6 +68,7 @@ const products = [
     image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500",
   },
 ];
+
 const categories = ["All", ...new Set(products.map((product) => product.category))];
 function App() {
   const [cart, setCart] = useState(() => {
