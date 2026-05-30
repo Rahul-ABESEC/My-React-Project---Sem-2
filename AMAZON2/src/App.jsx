@@ -68,7 +68,6 @@ const products = [
 ];
 
 const categories = ["All", ...new Set(products.map((product) => product.category))];
-
 function App() {
   const [cart, setCart] = useState(() => {
     const savedCart = localStorage.getItem("amazonCloneCart");
