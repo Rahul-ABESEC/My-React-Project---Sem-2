@@ -150,7 +150,6 @@ function App() {
         <h1>Shop today’s deals</h1>
         <p>Fast delivery, everyday tech, fashion, and home essentials.</p>
       </section>
-
       <main className="layout">
         <section className="products">
           {filteredProducts.length === 0 ? (
