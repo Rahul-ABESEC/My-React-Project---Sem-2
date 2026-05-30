@@ -121,7 +121,6 @@ function App() {
   function clearCart() {
     setCart([]);
   }
-
   return (
     <div className="app">
       <header className="header">
