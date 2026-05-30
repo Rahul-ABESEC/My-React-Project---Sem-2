@@ -73,7 +73,6 @@ function App() {
     const savedCart = localStorage.getItem("amazonCloneCart");
     return savedCart ? JSON.parse(savedCart) : [];
   });
-
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
 
