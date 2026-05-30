@@ -83,6 +83,7 @@ function App() {
         .toLowerCase()
         .includes(search.toLowerCase());
 
+      
       const matchesCategory =
         category === "All" || product.category === category;
       return matchesSearch && matchesCategory;
