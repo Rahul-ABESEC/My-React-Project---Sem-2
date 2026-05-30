@@ -89,7 +89,6 @@ function App() {
 
       const matchesCategory =
         category === "All" || product.category === category;
-
       return matchesSearch && matchesCategory;
     });
   }, [search, category]);
