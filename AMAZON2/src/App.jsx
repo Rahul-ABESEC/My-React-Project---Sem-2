@@ -117,7 +117,6 @@ function App() {
         .filter((item) => item.qty > 0)
     );
   }
-
   function clearCart() {
     setCart([]);
   }
