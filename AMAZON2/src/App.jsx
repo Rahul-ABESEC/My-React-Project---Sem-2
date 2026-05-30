@@ -74,7 +74,6 @@ function App() {
   });
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
-
   useEffect(() => {
     localStorage.setItem("amazonCloneCart", JSON.stringify(cart));
   }, [cart]);
