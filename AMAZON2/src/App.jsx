@@ -78,7 +78,6 @@ function App() {
   useEffect(() => {
     localStorage.setItem("amazonCloneCart", JSON.stringify(cart));
   }, [cart]);
-
   const filteredProducts = useMemo(() => {
     return products.filter((product) => {
       const matchesSearch = product.title
