@@ -100,7 +100,6 @@ function App() {
           item.id === product.id ? { ...item, qty: item.qty + 1 } : item
         );
       }
-
       return [...currentCart, { ...product, qty: 1 }];
     });
   }
