@@ -104,7 +104,6 @@ function App() {
       return [...currentCart, { ...product, qty: 1 }];
     });
   }
-
   function removeFromCart(productId) {
     setCart((currentCart) =>
       currentCart
