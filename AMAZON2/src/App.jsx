@@ -143,7 +143,6 @@ function App() {
           </button>
         ))}
       </nav>
-
       <section className="hero">
         <h1>Shop today’s deals</h1>
         <p>Fast delivery, everyday tech, fashion, and home essentials.</p>
