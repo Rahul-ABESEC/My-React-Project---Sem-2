@@ -89,7 +89,6 @@ function App() {
       return matchesSearch && matchesCategory;
     });
   }, [search, category]);
-
   const cartTotal = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
   const cartCount = cart.reduce((sum, item) => sum + item.qty, 0);
 
