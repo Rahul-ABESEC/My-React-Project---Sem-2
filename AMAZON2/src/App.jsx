@@ -131,7 +131,6 @@ function App() {
           value={search}
           onChange={(event) => setSearch(event.target.value)}
         />
-
         <div className="cart-pill">Cart: {cartCount}</div>
       </header>
 
