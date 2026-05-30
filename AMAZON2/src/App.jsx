@@ -99,6 +99,7 @@ function App() {
     setCart((currentCart) => {
       const existing = currentCart.find((item) => item.id === product.id);
 
+      
       if (existing) {
         return currentCart.map((item) =>
           item.id === product.id ? { ...item, qty: item.qty + 1 } : item
